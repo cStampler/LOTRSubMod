@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "numenors:numenor_steel_block"
+    }
+  ],
+  "result": {
+    "item": "numenors:numenor_ingot",
+    "count": 9
+  }
+}

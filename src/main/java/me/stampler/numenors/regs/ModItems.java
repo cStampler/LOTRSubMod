@@ -12,6 +12,10 @@ public class ModItems {
     public static final RegistryObject<Item> NUMENOR_INGOT = Registration.ITEMS.register("numenor_ingot", () ->
             new Item(new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP)));
 
+    public static final RegistryObject<Item> BLACKNUMENOR_INGOT = Registration.ITEMS.register("blacknumenor_ingot", () ->
+            new Item(new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP)));
+    // Numenor Tools
+
     public static final RegistryObject<ToolItem> NUMENOR_PICKAXE = Registration.ITEMS.register("numenor_pickaxe", () ->
             new PickaxeItem(NumenorItemTier.NUMENOR, 1, -2.8F, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(500))));
 

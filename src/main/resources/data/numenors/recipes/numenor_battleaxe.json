@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YYY",
+    "YXY",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:rods/wooden"
+    },
+    "Y":
+      {
+        "item": "numenors:numenor_ingot"
+      }
+  },
+  "result": {
+    "item": "numenors:numenor_battleaxe"
+  }
+}

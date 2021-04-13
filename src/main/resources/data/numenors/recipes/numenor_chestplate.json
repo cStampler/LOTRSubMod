@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "numenors:numenor_ingot"
+    }
+  },
+  "result": {
+    "item": "numenors:numenor_chestplate"
+  }
+}
