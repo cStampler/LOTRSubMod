@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "numenors:block/numenors_steel_ore"
+    "all": "numenors:block/numenor_steel_ore"
   }
 }
