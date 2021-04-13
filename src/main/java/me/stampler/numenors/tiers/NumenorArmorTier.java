@@ -26,6 +26,9 @@ public enum NumenorArmorTier implements IArmorMaterial {
     }),
     NUMENORUNFAITHHELM("numenorunhelm", 20, new int[]{3, 7, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F,() -> {
         return Ingredient.of(Items.IRON_INGOT);
+    }),
+    ARPHARAZON("arpharazon", 20, new int[]{3, 7, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F,() -> {
+        return Ingredient.of(Items.IRON_INGOT);
     });
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

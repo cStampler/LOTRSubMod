@@ -8,6 +8,7 @@ import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {
+    // Numenor Items
     public static final RegistryObject<Item> NUMENOR_INGOT = Registration.ITEMS.register("numenor_ingot", () ->
             new Item(new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP)));
 
@@ -23,6 +24,12 @@ public class ModItems {
     public static final RegistryObject<Item> NUMENOR_SHOVEL = Registration.ITEMS.register("numenor_shovel", () ->
             new ShovelItem(NumenorItemTier.NUMENOR, 1, -2.8F, (new Item.Properties()).tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(500)));
 
+    public static final RegistryObject<Item> NUMENOR_BATTLEAXE = Registration.ITEMS.register("numenor_battleaxe", () ->
+            new AxeItem(NumenorItemTier.NUMENORAXE, 6.0F, -3.3F, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP)).defaultDurability(500)));
+    //
+    //
+    //
+    // Numenor Armors
     public static final RegistryObject<Item> NUMENOR_HELMET = Registration.ITEMS.register("numenor_helmet", () ->
             new ArmorItem(NumenorArmorTier.NUMENORHELM, EquipmentSlotType.HEAD, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
 
@@ -35,9 +42,6 @@ public class ModItems {
     public static final RegistryObject<Item> NUMENOR_BOOTS = Registration.ITEMS.register("numenor_boots", () ->
             new ArmorItem(NumenorArmorTier.NUMENORAR, EquipmentSlotType.FEET, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
 
-    public static final RegistryObject<Item> NUMENOR_BATTLEAXE = Registration.ITEMS.register("numenor_battleaxe", () ->
-            new AxeItem(NumenorItemTier.NUMENORAXE, 6.0F, -3.3F, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP)).defaultDurability(500)));
-
     public static final RegistryObject<Item> UNNUMENOR_HELMET = Registration.ITEMS.register("unnumenor_helmet", () ->
             new ArmorItem(NumenorArmorTier.NUMENORUNFAITHHELM, EquipmentSlotType.HEAD, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
 
@@ -49,7 +53,22 @@ public class ModItems {
 
     public static final RegistryObject<Item> UNNUMENOR_BOOTS = Registration.ITEMS.register("unnumenor_boots", () ->
             new ArmorItem(NumenorArmorTier.NUMENORUNFAITH, EquipmentSlotType.FEET, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
+// Ar Pharazon/ LORE ITEMS
+    //
+    //
+    //
+    public static final RegistryObject<Item> ARPHARAZON_BOOTS = Registration.ITEMS.register("arpharazon_boots", () ->
+            new ArmorItem(NumenorArmorTier.ARPHARAZON, EquipmentSlotType.FEET, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
 
+    public static final RegistryObject<Item> ARPHARAZON_LEGGINGS = Registration.ITEMS.register("arpharazon_leggings", () ->
+            new ArmorItem(NumenorArmorTier.ARPHARAZON, EquipmentSlotType.LEGS, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
+
+    public static final RegistryObject<Item> ARPHARAZON_CHESTPLATE = Registration.ITEMS.register("arpharazon_chestplate", () ->
+            new ArmorItem(NumenorArmorTier.ARPHARAZON, EquipmentSlotType.CHEST, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
+
+    public static final RegistryObject<Item> ARPHARAZON_HELMET = Registration.ITEMS.register("arpharazon_helmet", () ->
+            new ArmorItem(NumenorArmorTier.ARPHARAZON, EquipmentSlotType.HEAD, (new Item.Properties().tab(NumenorItemGroup.NUMENOR_ITEM_GROUP).defaultDurability(765))));
+//
 
 
 

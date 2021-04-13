@@ -16,6 +16,9 @@
   "item.numenors.unnumenor_helmet": "Unfaithful Númenorean Helmet",
   "item.numenors.unnumenor_chestplate": "Unfaithful Númenorean Chestplate",
   "item.numenors.unnumenor_leggings": "Unfaithful Númenorean Leggings",
-  "item.numenors.unnumenor_boots": "Unfaithful Númenorean Boots",
-  "itemGroup.numenor": "Numenor"
+  "item.numenors.arpharazon_boots": "Ar-Pharazôn's Boots",
+  "item.numenors.arpharazon_chestplate": "Ar-Pharazôn's Chestplate",
+  "item.numenors.arpharazon_leggings": "Ar-Pharazôn's Leggings",
+  "item.numenors.arpharazon_helmet": "Ar-Pharazôn's Helmet",
+  "itemGroup.numenor": "Númenor"
 }
