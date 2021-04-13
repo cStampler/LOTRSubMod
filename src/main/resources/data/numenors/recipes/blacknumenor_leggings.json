@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "numenors:blacknumenor_ingot"
+    }
+  },
+  "result": {
+    "item": "numenors:unnumenor_leggings"
+  }
+}

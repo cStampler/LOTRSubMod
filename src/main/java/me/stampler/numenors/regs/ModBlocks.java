@@ -3,6 +3,7 @@ package me.stampler.numenors.regs;
 import me.stampler.numenors.itemgroups.NumenorItemGroup;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.CraftingTableBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
@@ -35,7 +36,6 @@ public class ModBlocks {
             new Block(AbstractBlock.Properties.of(Material.METAL)
                     .strength(3, 10)
                     .sound(SoundType.STONE)));
-
 
 
     static void register() {}
