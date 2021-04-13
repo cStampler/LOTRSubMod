@@ -1,0 +1,21 @@
+{
+  "block.numenors.numenor_steel_block": "Númenorean Steel Block",
+  "block.numenors.numenor_steel_ore": "Númenorean Steel Ore",
+  "item.numenors.numenor_ingot": "Númenorean Steel Ingot",
+  "block.numenors.numenor_pillar": "Numenorean Pillar",
+  "block.numenors.numenor_brick": "Númenorean Brick",
+  "item.numenors.numenor_shovel": "Númenorean Shovel",
+  "item.numenors.numenor_sword": "Númenorean Sword",
+  "item.numenors.numenor_axe": "Númenorean Axe",
+  "item.numenors.numenor_battleaxe": "Númenorean Battleaxe",
+  "item.numenors.numenor_pickaxe": "Númenorean Pickaxe",
+  "item.numenors.numenor_chestplate": "Númenorean Chestplate",
+  "item.numenors.numenor_boots": "Númenorean Boots",
+  "item.numenors.numenor_leggings": "Númenorean Leggings",
+  "item.numenors.numenor_helmet": "Númenorean Helmet",
+  "item.numenors.unnumenor_helmet": "Unfaithful Númenorean Helmet",
+  "item.numenors.unnumenor_chestplate": "Unfaithful Númenorean Chestplate",
+  "item.numenors.unnumenor_leggings": "Unfaithful Númenorean Leggings",
+  "item.numenors.unnumenor_boots": "Unfaithful Númenorean Boots",
+  "itemGroup.numenor": "Numenor"
+}

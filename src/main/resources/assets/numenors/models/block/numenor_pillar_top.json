@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "numenors:block/numenor_pillar_face",
+    "side": "numenors:block/numenor_pillar_top"
+  }
+}
