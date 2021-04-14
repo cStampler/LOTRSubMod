@@ -153,6 +153,9 @@ public static final RegistryObject<Item> ANGRIST = Registration.ITEMS.register("
     public static final RegistryObject<Item> URFAEL = Registration.ITEMS.register("weapon_urfael", () ->
             new SwordItem(NumenorItemTier.NUMENOR, 3, -2.4F, (new Item.Properties()).tab(NumenorLoreGroup.NUMENOR_LORE).defaultDurability(500)));
 
+    public static final RegistryObject<Item> ELVEN_SWORD = Registration.ITEMS.register("elven_sword", () ->
+            new SwordItem(NumenorItemTier.NUMENOR, 3, -2.4F, (new Item.Properties()).tab(NumenorLoreGroup.NUMENOR_LORE).defaultDurability(500)));
+
 
 
     static void register() {}

@@ -1,7 +1,7 @@
 {
   "block.numenors.numenor_steel_block": "Númenorean Steel Block",
   "block.numenors.numenor_steel_ore": "Númenorean Steel Ore",
-  "item.numenors.nuemnor_ring": "Númenorean Ring",
+  "item.numenors.numenor_ring": "Númenorean Ring",
   "item.numenors.numenor_ingot": "Númenorean Steel Ingot",
   "item.numenors.blacknumenor_ingot": "Black-Númenorean Steel Ingot",
   "block.numenors.numenor_pillar": "Numenorean Pillar",
@@ -9,6 +9,7 @@
   "item.numenors.numenor_shovel": "Númenorean Shovel",
   "item.numenors.numenor_sword": "Númenorean Sword",
   "item.numenors.numenor_axe": "Númenorean Axe",
+  "item.numenors.numenor_wrench": "Wrench",
   "item.numenors.numenor_battleaxe": "Númenorean Battleaxe",
   "item.numenors.numenor_pickaxe": "Númenorean Pickaxe",
   "item.numenors.numenor_chestplate": "Númenorean Chestplate",
@@ -50,5 +51,6 @@
   "item.numenors.weapon_thorin": "Thorin's Sword",
   "item.numenors.weapon_train": "Thrain's Axe",
   "item.numenors.weapon_thror": "Thror's Axe",
-  "item.numenors.weapon_urfael": "Urfael"
+  "item.numenors.weapon_urfael": "Urfael",
+  "item.numenors.elven_sword": "Elven Sword"
 }
